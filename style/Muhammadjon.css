@@ -142,6 +142,7 @@ header .muhammadjon.menu {
     color: white;
     margin-top: -140px;
     transition: 0.6s ease;
+    font-size: 20px;
 }
 
 .muhammadjon.get_advice .muhammadjon.future_home img {
@@ -176,6 +177,7 @@ header .muhammadjon.menu {
         width: 200px;
         height: 200px;
         margin-top: -110px;
+        font-size: 15px;
     }
 }
 
