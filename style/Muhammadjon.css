@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600;700&family=Manrope:wght@200&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .muhammadjon.logo {
+    font-family: Ubuntu;
+}
+
+header .muhammadjon.head_elements {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header .muhammadjon.head_elements a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+header .muhammadjon.call_btn_class {
+    display: flex;
+}
+
+header .muhammadjon.call_btn_class .muhammadjon.call_btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 18px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header .muhammadjon.menu {
+    font-size: 40px;
+    display: none;
+}
+
+@media(max-width: 992px) {
+    header .muhammadjon.head_elements {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    header .muhammadjon.head_elements {
+        display: none;
+    }
+
+    header .muhammadjon.call_btn_class {
+        display: none;
+    }
+
+    header .muhammadjon.menu {
+        display: flex;
+    }
+
+}
+
+.muhammadjon.get_advice {
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.muhammadjon.get_advice .muhammadjon.get_advice_text {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
+    font-size: 50px;
+    font-family: Styles;
+    font-weight: 200;
+}
+
+.muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
+    font-size: 20px;
+    font-family: Styles;
+    font-weight: 100;
+}
+
+.muhammadjon.get_advice .muhammadjon.future_home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+.muhammadjon.get_advice .muhammadjon.future_home .muhammadjon.button{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: -140px;
+}
+
+.muhammadjon.get_advice .muhammadjon.future_home img {
+    width: 100%;
+    height: 90%;
+    margin-top: 40px;
+    border-radius: 40px;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
