@@ -18,19 +18,21 @@ header {
 
 header .muhammadjon.logo {
     font-family: Ubuntu;
+    font-size: 20px;
 }
 
 header .muhammadjon.head_elements {
     display: flex;
     align-items: center;
     gap: 40px;
-    transition: 50s ease;
+    transition: 0.3s ease;
 }
 
 header .muhammadjon.head_elements a {
     text-decoration: none;
     font-weight: 500;
     color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header .muhammadjon.call_btn_class {
@@ -47,6 +49,9 @@ header .muhammadjon.call_btn_class .muhammadjon.call_btn {
     background: none;
     font-weight: 600;
     cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    transition: 0.3s ease;
 }
 
 header .muhammadjon.menu {
@@ -59,26 +64,17 @@ header .muhammadjon.menu {
     header .muhammadjon.head_elements {
         display: flex;
         align-items: center;
-        gap: 35px;
-    }
-    header .muhammadjon.call_btn_class .muhammadjon.call_btn {
-        width: 190px;
-        height: 40px;
+        gap: 30px;
     }
 
-}
-@media(max-width: 840px) {
-    header .muhammadjon.head_elements {
-        gap: 25px;
-    }
     header .muhammadjon.call_btn_class .muhammadjon.call_btn {
-        width: 185px;
+        width: 170px;
         height: 40px;
     }
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 930px) {
     header .muhammadjon.head_elements {
         display: none;
     }
@@ -112,15 +108,23 @@ header .muhammadjon.menu {
 
 .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
     font-size: 50px;
-    font-family: Styles;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    transition: 0.6s ease;
+}
+
+.muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 200;
     transition: 0.6s ease;
+    display: none;
 }
 
 .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
     font-size: 20px;
-    font-family: Styles;
-    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
     transition: 0.6s ease;
 }
 
@@ -142,7 +146,8 @@ header .muhammadjon.menu {
     color: white;
     margin-top: -140px;
     transition: 0.6s ease;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .muhammadjon.get_advice .muhammadjon.future_home img {
@@ -179,6 +184,9 @@ header .muhammadjon.menu {
         margin-top: -110px;
         font-size: 15px;
     }
+    .muhammadjon.get_advice .muhammadjon.future_home img {
+        height: 70%;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -213,9 +221,13 @@ header .muhammadjon.menu {
 
 @media(max-width: 980px) {
     .muhammadjon.get_advice .muhammadjon.future_home .muhammadjon.button {
-        width: 180px;
-        height: 180px;
-        margin-top: 0px;
+        width: 190px;
+        height: 190px;
+        margin-top: 7px;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.future_home img {
+        height: 80%;
     }
 
     .muhammadjon.get_advice .muhammadjon.get_advice_text {
@@ -225,6 +237,16 @@ header .muhammadjon.menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 20px;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
+        display: none;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        display: flex;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
 
@@ -238,13 +260,55 @@ header .muhammadjon.menu {
         object-fit: cover;
         background-size: cover;
     }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        font-size: 37px;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.future_home .muhammadjon.button {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 460px) {
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        font-size: 33px;
+    }
 }
 
 @media(max-width: 380px) {
-    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
-        font-size: 30px;
+    .muhammadjon.get_advice .muhammadjon.future_home .muhammadjon.button {
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
+        font-size: 12px;
     }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        font-size: 27px;
+    }
+
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
         font-size: 13px;
+    }
+}
+
+@media(max-width: 308px) {
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        font-size: 24px;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 268px) {
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
+        font-size: 21px;
+    }
+
+    .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
+        font-size: 10px;
     }
 }
