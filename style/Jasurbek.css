@@ -1,0 +1,206 @@
+
+.jasur_main{
+    margin: 5%;
+    width: 90%;
+    height: 600px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jasur_container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    gap: 30px;
+}
+.jasur_container h2{
+   font-size: 40px;
+   font-family: Ubuntu;
+   font-weight: 200;
+}
+.jasur_container .h1{
+    font-size: 120px;
+    font-family:Ubuntu;
+ }
+ .jasur_container p{
+ 
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+ }
+
+.jasur_box{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.jasur_box div h1{
+ font-weight: 200;
+ font-size: 50px;
+ 
+}
+
+
+
+.jasur_img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+@media(max-width: 1300px) {
+ .jasur_container h2{
+        font-size: 40px;}
+
+.jasur_container .h1{
+    font-size: 100px;}
+    .jasur_container p{
+        font-size: 16px;
+    }
+
+    .jasur_box div h1{
+        
+        font-size: 50px;
+        
+       }
+}
+
+@media(max-width: 1230px) {
+    .jasur_container h2{
+           font-size: 35px;}
+   
+   .jasur_container .h1{
+       font-size: 90px;}
+       .jasur_container p{
+           font-size: 15px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 40px;
+           
+          }
+   }
+
+   @media(max-width: 1150px) {
+    .jasur_container h2{
+           font-size: 30px;}
+   
+   .jasur_container .h1{
+       font-size: 80px;}
+       .jasur_container p{
+           font-size: 13px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 30px;
+           
+          }
+
+          .jasur_img img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+        }
+   }
+
+   @media(max-width: 1000px) {
+    .jasur_container h2{
+           font-size: 25px;}
+   
+   .jasur_container .h1{
+       font-size: 70px;}
+       .jasur_container p{
+           font-size: 12px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 25px;
+           
+          }
+          .jasur_img img{
+            width: 300px;
+            height: 300px;
+            border-radius: 5%;
+        }
+   }
+
+   @media(max-width: 920px) {
+    .jasur_container h2{
+           font-size: 20px;}
+   
+   .jasur_container .h1{
+       font-size: 60px;}
+       .jasur_container p{
+           font-size: 10px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 20px;
+           
+          }
+
+          .jasur_img img{
+            width: 250px;
+            height: 250px;
+            border-radius: 5%;
+        }
+   }
+   @media(max-width: 755px) {
+    .jasur_main{
+        flex-direction: column;
+    }
+    /* .jasur_container h2{
+           font-size: 20px;}
+   
+   .jasur_container .h1{
+       font-size: 60px;}
+       .jasur_container p{
+           font-size: 10px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 20px;
+           
+          }*/
+
+          .jasur_img img{
+            width: 350px;
+            height: 250px;
+            border-radius: 5%;
+        } 
+   }
+
+   @media(max-width: 650px) {
+    .jasur_container h2{
+           font-size: 16px;}
+   
+   .jasur_container .h1{
+       font-size: 50px;}
+       .jasur_container p{
+           font-size: 8px;
+       }
+   
+       .jasur_box div h1{
+           
+           font-size: 16px;
+           
+          }
+
+          .jasur_img img{
+            width: 300px;
+            height: 250px;
+            border-radius: 5%;
+        }
+   }
+
+
+
+   
