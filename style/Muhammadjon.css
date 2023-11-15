@@ -288,7 +288,7 @@ header .muhammadjon.menu {
     }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 387px) {
 
     .muhammadjon.get_advice .muhammadjon.future_home img {
         height: 55%;
@@ -309,7 +309,7 @@ header .muhammadjon.menu {
     }
 }
 
-@media(max-width: 308px) {
+@media(max-width: 318px) {
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
         font-size: 24px;
     }
@@ -319,7 +319,7 @@ header .muhammadjon.menu {
     }
 }
 
-@media(max-width: 268px) {
+@media(max-width: 271px) {
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
         font-size: 21px;
     }
