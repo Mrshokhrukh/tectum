@@ -8,6 +8,7 @@
 }
 
 header {
+    z-index: 1;
     width: 90%;
     height: 100px;
     margin: auto;
@@ -33,6 +34,7 @@ header .muhammadjon.head_elements a {
     font-weight: 500;
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s ease;
 }
 
 header .muhammadjon.call_btn_class {
@@ -75,18 +77,11 @@ header .muhammadjon.menu {
 }
 
 @media(max-width: 930px) {
-    header .muhammadjon.head_elements {
-        display: none;
+    header .muhammadjon.call_btn_class .muhammadjon.call_btn {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
     }
-
-    header .muhammadjon.call_btn_class {
-        display: none;
-    }
-
-    header .muhammadjon.menu {
-        display: flex;
-    }
-
 }
 
 .muhammadjon.get_advice {
@@ -184,6 +179,7 @@ header .muhammadjon.menu {
         margin-top: -110px;
         font-size: 15px;
     }
+
     .muhammadjon.get_advice .muhammadjon.future_home img {
         height: 70%;
     }
@@ -197,8 +193,6 @@ header .muhammadjon.menu {
     }
 }
 
-@media(max-width: 1200px) {}
-
 @media(max-width: 1160px) {
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
         font-size: 45px;
@@ -210,12 +204,22 @@ header .muhammadjon.menu {
 }
 
 @media(max-width: 1060px) {
+    header .muhammadjon.head_elements{
+        gap: 20px;
+    }
+
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h1 {
         font-size: 40px;
     }
 
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
         font-size: 16px;
+    }
+}
+
+@media(max-width: 885px) {
+    header .muhammadjon.head_elements a{
+        font-size: 12px;
     }
 }
 
@@ -250,15 +254,23 @@ header .muhammadjon.menu {
     }
 }
 
+@media(max-width: 768px) {
+    header .muhammadjon.head_elements{
+        display: none;
+    }
+
+    header .muhammadjon.call_btn{
+        display: none;
+    }
+    header .muhammadjon.menu{
+        display: flex;
+    }
+}
+
 @media(max-width: 576px) {
     .muhammadjon.get_advice .muhammadjon.future_home img {
         width: 100%;
         height: 70%;
-        margin-top: 40px;
-        border-radius: 40px;
-        background-position: center;
-        object-fit: cover;
-        background-size: cover;
     }
 
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_left h2 {
@@ -277,6 +289,10 @@ header .muhammadjon.menu {
 }
 
 @media(max-width: 380px) {
+
+    .muhammadjon.get_advice .muhammadjon.future_home img {
+        height: 55%;
+    }
     .muhammadjon.get_advice .muhammadjon.future_home .muhammadjon.button {
         width: 150px;
         height: 150px;
@@ -311,4 +327,27 @@ header .muhammadjon.menu {
     .muhammadjon.get_advice .muhammadjon.get_advice_text .muhammadjon.muhammadjon.get_advice_text_right p {
         font-size: 10px;
     }
+}
+.muhammadjon.side_bar{
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    right: 0px;
+}
+
+.muhammadjon.menu_text{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.muhammadjon.menu_text h2{
+    cursor: pointer;
+    font-size: 40px;
 }
