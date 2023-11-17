@@ -339,6 +339,11 @@ header .muhammadjon.menu {
     background-color: rgb(255, 255, 255);
     z-index: 100;
     right: 0px;
+}
+
+.muhammadjon.side_bar_in{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
